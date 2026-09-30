@@ -1,6 +1,6 @@
 <div align="center">
 
-# 🛡️ DRIS — Disaster Response Intelligence System
+# DRIS — Disaster Response Intelligence System
 
 ### *Real-time Disaster Management & Emergency Coordination Platform*
 
@@ -9,13 +9,12 @@
 [![Platform](https://img.shields.io/badge/Platform-Android%20%7C%20iOS%20%7C%20Web-green)](https://expo.dev)
 [![License](https://img.shields.io/badge/License-MIT-yellow)](./LICENSE)
 
-**Built for Smart India Hackathon (SIH) 2026 — Internal Round**
 
 </div>
 
 ---
 
-## 📋 Problem Statement
+## Problem Statement
 
 During natural disasters and emergencies, the lack of a unified, real-time coordination system between citizens and response teams leads to:
 
@@ -28,11 +27,11 @@ During natural disasters and emergencies, the lack of a unified, real-time coord
 
 ---
 
-## 🎯 Solution Overview
+## Solution Overview
 
 DRIS is a **cross-platform mobile application** built with React Native & Expo that provides two distinct interfaces:
 
-| 👤 **Citizen Interface** | 🛡️ **Response Team Interface** |
+| **Citizen Interface** | **Response Team Interface** |
 |---|---|
 | One-tap SOS emergency requests | Real-time incident dashboard with metrics |
 | Category-based emergency reporting (Medical, Flood, Fire, Rescue, Food & Water) | Live map view with incident markers, hospitals & relief camps |
@@ -42,50 +41,50 @@ DRIS is a **cross-platform mobile application** built with React Native & Expo t
 
 ---
 
-## ✨ Key Features
+## Key Features
 
-### 🚨 SOS Emergency System
+### SOS Emergency System
 - Multi-step emergency request flow with **category selection** (Medical, Flood, Fire, Rescue, Food & Water)
 - **Camera integration** for attaching incident photos via `expo-image-picker`
 - Auto-captures **GPS location** for precise incident reporting
 - Fields for number of people affected and emergency contact number
 
-### 📊 Response Team Dashboard
+### Response Team Dashboard
 - Live metrics: **Active Incidents**, **Deployed Teams**, **People Affected**, **Critical Alerts**
 - Incoming request queue with priority-based color coding
 - Tabular view of all active incidents with type, location, severity, and status
 
-### 🗺️ Live Incident Map
+### Live Incident Map
 - Interactive **MapView** powered by `react-native-maps`
 - Real-time markers for active SOS requests with priority-based coloring
 - Static markers for hospitals and relief camps
 - Callout overlays showing incident type, priority, and status
 - Map legend for quick visual reference
 
-### 🤖 AI-Powered Analysis
+### AI-Powered Analysis
 - **Real-time Risk Score** (0–100) computed from active incident count and priority levels
 - **Incident Distribution** breakdown with visual progress bars
 - **Smart Recommendations** engine that generates context-aware action items (e.g., "Deploy mobile medical units", "Evacuate low-lying areas")
 
-### 📦 Resource Management
+### Resource Management
 - Visual **resource allocation interface** with stepper controls
 - Tracks available resources: Ambulances, Rescue Boats, Medical Kits, Relief Supplies, Fire Trucks
 - One-tap deployment with quantity selection
 - Recent deployment history log
 
-### 📍 Request Lifecycle Tracking
+### Request Lifecycle Tracking
 - **5-stage visual timeline**: Request Received → Team Assigned → Resources Deployed → Team En Route → Incident Resolved
 - Displays assigned team name and ETA at relevant stages
 - Both citizens and response teams can track progress in real-time
 
-### 🏥 Nearby Facilities
+### Nearby Facilities
 - **Hospital locator** with distance, availability status, and bed count
 - **Shelter finder** with capacity information and current occupancy
 - Color-coded availability indicators (Available / Full / Limited)
 
 ---
 
-## 🏗️ Architecture
+## Architecture
 
 ```
 DRIS/
@@ -147,7 +146,7 @@ DRIS/
 
 ---
 
-## 🚀 Getting Started
+## Getting Started
 
 ### Prerequisites
 
@@ -194,7 +193,7 @@ DRIS/
 
 ---
 
-## 📱 User Flow
+## User Flow
 
 ```mermaid
 graph TD
@@ -202,22 +201,22 @@ graph TD
     B -->|Citizen| C[Citizen Home]
     B -->|Response Team| D[Team Dashboard]
     
-    C --> E[🚨 Send SOS]
-    C --> F[📋 Track Requests]
-    C --> G[🏥 Nearby Hospitals]
-    C --> H[⛺ Nearby Shelters]
-    C --> I[🔔 Emergency Alerts]
+    C --> E[Send SOS]
+    C --> F[Track Requests]
+    C --> G[Nearby Hospitals]
+    C --> H[Nearby Shelters]
+    C --> I[Emergency Alerts]
     
     E --> E1[Select Category]
     E1 --> E2[Add Details + Photo]
     E2 --> E3[Submit Request]
     E3 --> F
     
-    D --> J[📊 View Metrics]
-    D --> K[🗺️ Live Map]
-    D --> L[🤖 AI Analysis]
-    D --> M[📦 Resources]
-    D --> N[📥 Incoming Requests]
+    D --> J[View Metrics]
+    D --> K[Live Map]
+    D --> L[AI Analysis]
+    D --> M[Resources]
+    D --> N[Incoming Requests]
     
     N --> O[Accept Request]
     O --> M
@@ -226,21 +225,13 @@ graph TD
 
 ---
 
-## 🤝 Team
-
-| Name | Role |
-|---|---|
-| **Pragadeesh** | Lead Developer |
-
----
-
-## 📄 License
+## License
 
 This project is licensed under the **MIT License** — see the [LICENSE](./LICENSE) file for details.
 
 ---
 
-## 🙏 Acknowledgments
+## Acknowledgments
 
 - [National Disaster Management Authority (NDMA)](https://ndma.gov.in/) for domain inspiration
 - [Expo](https://expo.dev) & [React Native](https://reactnative.dev) communities
@@ -250,8 +241,7 @@ This project is licensed under the **MIT License** — see the [LICENSE](./LICEN
 
 <div align="center">
 
-**Built with ❤️ for a safer India**
+**Built for a safer India**
 
-*SIH 2026 — Internal Hackathon Prototype*
 
 </div>
